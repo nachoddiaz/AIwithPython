@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 def visualize_classifier(classifier, X, y):
     #Define max and min values for X and y that will be used in the mesh grid
     min_x, max_x = X[:,0].min() -1.0, X[:,0].max() +1.0
-    min_y, max_y = X[:,0].min() -1.0, X[:,1].max() +1.0
+    min_y, max_y = X[:,1].min() -1.0, X[:,1].max() +1.0
 
     #Define the step size to use in plotting the mesh grid
     mesh_step_size = 0.01
